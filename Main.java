@@ -1,9 +1,7 @@
-import java.util.Random;
 public class Main {
     public static void main(String[] args) {
-        Random aleatorio  = new Random();
 
-        int numeroAleatorio = aleatorio.nextInt(6) + 1 ;
+        int numeroAleatorio = (int) (Math.random() * 6) + 1;
 
         switch (numeroAleatorio) {
             case 1:
